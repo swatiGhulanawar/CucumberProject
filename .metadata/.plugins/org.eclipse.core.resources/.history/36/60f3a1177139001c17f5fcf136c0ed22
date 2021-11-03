@@ -1,0 +1,11 @@
+package StepDefination;
+
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features="src/test/resources/features/login.feature",
+				 glue= {"StepDefination"})
+
+public class loginRunner {
+
+}
